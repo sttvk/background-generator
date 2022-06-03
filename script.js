@@ -8,7 +8,8 @@ function setGradient() {
 	"linear-gradient(to right, " 
 	+ color1.value 
 	+ ", " 
-	+ color2.value 
+	+ c
+	olor2.value 
 	+ ")";
 
 	css.textContent = body.style.background + ";";
